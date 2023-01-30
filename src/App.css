@@ -277,6 +277,12 @@ header > div > ul > li > a {
     font-size: 18px;
     transition: all 0.2s ease;
 }
+
+#footer ul > li > a > img{
+width: 30px;
+height: 30px;
+}
+
 #footer ul > li:hover {
     font-weight: 500;
 }
