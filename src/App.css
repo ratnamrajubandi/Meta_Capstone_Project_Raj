@@ -30,6 +30,17 @@ header > div > ul > li > a {
     font-size: 18px;
 }
 
+header > div > ul > li:hover{
+    transform: scale(120%);
+transition: all 0.2s ease;
+}
+
+header > div > ul > li > a:hover{
+
+    color: green;
+
+}
+
 #hero {
     background-color: var(--color-primary);
     padding: 2vh 0;
@@ -283,8 +294,16 @@ width: 30px;
 height: 30px;
 }
 
+#footer ul > li > a > img:hover{
+transform: scale(120%);
+transition: all 0.2s ease;
+}
+
 #footer ul > li:hover {
     font-weight: 500;
+    color: #eed450;
+    transform: scale(120%);
+transition: all 0.2s ease;
 }
 
 #booktable {

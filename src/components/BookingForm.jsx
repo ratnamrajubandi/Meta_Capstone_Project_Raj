@@ -52,6 +52,10 @@ const BookingForm = ({ availableTimes, setAvailableTimes, submitForm }) => {
     <form onSubmit={handleSubmit}>
         <h1>Reserve a table</h1>
         <div className="form-group">
+            <label htmlFor='Name'>Enter Your Name</label>
+            <input type="text" name='name' required/>
+        </div>
+        <div className="form-group">
             <label htmlFor="Date">Date</label>
             <input type="date" name='date' value={date} onChange={handleDateChange} required/>
         </div>
