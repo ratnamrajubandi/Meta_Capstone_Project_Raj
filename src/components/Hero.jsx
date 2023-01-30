@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="content">
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fuga nam nihil similique dolores, unde tempora earum ducimus autem harum minima voluptatibus pariatur? Suscipit debitis rerum ut perferendis at veritatis, ex harum alias officiis eaque fuga odit natus beatae sint!</p>
+          <p>Welcome to Little Lemon, a vibrant and cozy restaurant where we serve up delicious, homemade meals made with only the freshest ingredients. Our menu features a wide variety of dishes to suit any taste, from classic comfort food to international flavors.</p>
           <button><Link to="booking">Reserve a table</Link></button>
         </div>
         <img src={RestaurantFood}  alt="Little Lemon Restaurant Food" />

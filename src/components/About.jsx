@@ -8,7 +8,15 @@ const About = () => {
       <div className="container">
         <div className="content">
           <h2>About</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor pariatur soluta repellat nobis aperiam vel, numquam fuga veritatis quae, natus laboriosam ut quidem! Eveniet esse quos similique, accusamus nisi autem nesciunt quas, et, obcaecati aliquid exercitationem! Aliquam vero rem vitae hic laudantium dolor impedit consequuntur voluptate nesciunt ab neque labore facilis, reiciendis ut quibusdam a blanditiis natus, cum distinctio?</p>
+          <p>Welcome to Little Lemon, a vibrant and cozy restaurant where we serve up delicious, homemade meals made with only the freshest ingredients. Our menu features a wide variety of dishes to suit any taste, from classic comfort food to international flavors.
+
+Whether you're in the mood for a hearty breakfast, a light lunch, or a satisfying dinner, we have something for everyone.
+
+</p>
+<p> Our menu includes everything from omelets and pancakes to sandwiches and salads, as well as a selection of entrees that are sure to please.
+
+Our team is dedicated to providing excellent service and a welcoming atmosphere. We strive to make every visit to Little Lemon a memorable one and we look forward to serving you soon.</p>
+<p>Thank you for choosing Little Lemon, we hope to see you soon!</p>
         </div>
         <div className="image-container">
           <img src={ChefsImage} alt="Little Lemon Restaurant" />
